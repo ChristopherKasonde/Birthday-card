@@ -1,0 +1,105 @@
+body {
+  background: linear-gradient(#a2d2ff, #ffc0cb);
+  font-family: "Happy Monkey", cursive;
+  color: #fff;
+  text-align: center;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  text-shadow: 0 0 1px #000;
+}
+
+#birthday-photo {
+  background: #f3f0f0;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 6px solid #ffb0c9;
+  margin-bottom: 5px;
+  object-fit: cover;
+}
+
+#bday-age {
+  background-color: #ffb0c9;
+  border-radius: 4px;
+  margin-block: 5px;
+  padding: 3px 9px;
+}
+
+#bday-date {
+  background-color: #ffb0c9;
+  border-radius: 4px;
+  margin: 0;
+  padding: 3px 9px;
+}
+
+.gift-section {
+  margin-top: 50px;
+}
+
+.gift-title {
+  margin-bottom: 10px;
+}
+
+.gift-hint {
+  margin-top: 0;
+}
+
+.img {
+  background-image: url("gift-box.jpg");
+  width: 400px;
+  height: 400px;
+  border: 6px solid #fff;
+  border-radius: 8px;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+}
+
+#gift-img1:hover {
+  background-image: url("https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2tlZ3Q4a3J6NDU2bnZ1cDMzaHFlNmU2YThhbjhkYjJzdW1kZ3pzNCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/31lPv5L3aIvTi/200.webp");
+}
+
+#gift-img2:hover {
+  background-image: url("https://media4.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3OGxuaGhjMTRrMmVxdmYyM21tM3BieGU2Z295MmFudngxYXdpdWQzOSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/NsIgSsYiQfv8c/giphy.webp");
+}
+
+#gift-img3:hover {
+  background-image: url("https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdW4wcXhkcDQ5d3F2NnF6dTdpeHp5cGRjaWVjOW9uNTdsN3JzdTJpMyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/5XcvfzRIcJW9C4N6cR/200.webp");
+}
+
+#gift-img4:hover {
+  background-image: url("https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMnBwdTIxeTdvdjB3bHlxbnFldTdsNnZoMzRlZjhmZDhnNzI2aTdlciZlcD12MV9naWZzX3NlYXJjaCZjdD1n/VIoJEvVTq8X1R3fqP7/giphy.webp");
+}
+
+#gift-img5 {
+  height: 200px;
+}
+
+#gift-img5:hover {
+  background-image: url("https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3ljMWtpODM0OHNhemNpZXFpYTExaGZtbHJiMzhzbXptbzd2YmNqMyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/yziuK6WtDFMly/200.webp");
+  background-position: center;
+  object-fit: cover;
+}
+
+.footer {
+  width: 400px;
+  margin: 40px auto 30px;
+  font-style: italic;
+}
+
+a {
+  color: #fff;
+  font-weight: bold;
+}
